@@ -1,0 +1,7 @@
+{
+  "name": "SurfApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
