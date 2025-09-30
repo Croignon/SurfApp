@@ -1,13 +1,12 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>modal</ion-title>
+    <ion-title>{{ marker?.title }}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">modal</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <!-- You can show more marker info here -->
+  <p>{{ marker?.snippet }}</p>
+  <p>Latitude: {{ marker?.latitude }}</p>
+  <p>Longitude: {{ marker?.longitude }}</p>
 </ion-content>
